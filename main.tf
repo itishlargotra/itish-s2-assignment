@@ -1,6 +1,6 @@
 resource "aws_instance" "aws_ec2_Instance" {
   count=length(var.aws_ec2_tag)
-  ami = "ami-074dc0a6f6c764218"
+  ami = "var.ami"
   instance_type = "t2.micro"
 
   tags = {
