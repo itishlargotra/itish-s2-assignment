@@ -1,0 +1,19 @@
+aws_ec2_tag=["itish-1","itish-2","itish-3"]
+
+aws_s3_tag={
+     user1={
+        "name"="itish1",
+        "owner"="itish.largotra@cloudeq.com1",
+        "purpose"="training1",
+    }
+    user2={
+        "name"="itish2",
+        "owner"="itish.largotra@cloudeq.com2",
+        "purpose"="training2",
+    }
+    user3={
+        "name"="itish3",
+        "owner"="itish.largotra@cloudeq.com3",
+        "purpose"="training3",
+    }
+}
